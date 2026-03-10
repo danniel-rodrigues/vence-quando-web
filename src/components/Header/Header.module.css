@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  padding: 8px 25px;
+}
+
+.userContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logoAndSearchBox {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 360px;
+  border-radius: 50px;
+  border: 1px solid #dfdfdf;
+  background-color: #fff;
+  padding: 0 12px;
+  gap: 10px;
+}
+
+.searchField {
+  width: 287px;
+  height: 28px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.logo {
+  width: 180px;
+}

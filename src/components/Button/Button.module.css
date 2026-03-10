@@ -1,0 +1,42 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50px;
+  gap: 5px;
+  height: 40px;
+  padding: 0px 12px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.iconOnly {
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+  border-radius: 50%;
+  border: 1px solid #dfdfdf;
+}
+
+.iconOnly:hover {
+  border-color: #b3b3b3;
+}
+
+.primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.secondary {
+  background-color: #fff;
+  color: #212529;
+}
+
+.danger {
+  background-color: #dc3545;
+  color: #fff;
+}
